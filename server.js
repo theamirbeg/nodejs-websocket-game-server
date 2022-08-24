@@ -1,5 +1,5 @@
 const ws = require('nodejs-websocket');
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 8000
 
 const server = ws.createServer((connection)=>{
     console.log("New connection");
